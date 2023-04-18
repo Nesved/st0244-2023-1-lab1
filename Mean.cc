@@ -1,3 +1,4 @@
+// This function calculates the mean of a vector of integers
 #include <vector>
 
 double mean(const std::vector<int>& nums) {
