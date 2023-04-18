@@ -19,3 +19,7 @@ The clean target removes any generated files, including the bin directory contai
 The run target executes the Java program, passing the filename specified as a command-line argument. The program reads the integers from the specified file and computes their arithmetic mean.
 The bin/Mean dependency for the run target ensures that the Java program is compiled before it is executed.
 The bin/Mean target compiles the C++ program using the g++ compiler with the -Wall, -Wextra, and -Werror options. The compiled executable is placed in the bin directory.
+
+To compile and run the program, you could do the following:
+$ make ARG=matrix.txt
+$ make run ARG=matrix.txt
